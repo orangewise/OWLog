@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "OWLog"
-  s.version      = "0.1.0"
+  s.version      = "0.1.1"
   s.summary      = "Orangewise logging."
   s.description  = <<-DESC
                     Log like we want to.
@@ -16,12 +16,5 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '4.0'
   s.requires_arc = false
 
-  s.source_files = 'Classes/ios/NSLog.h'
-  # s.resources = 'Assets'
-
-  s.ios.exclude_files = 'Classes/osx'
-  s.osx.exclude_files = 'Classes/ios'
-  # s.public_header_files = 'Classes/**/*.h'
-  # s.frameworks = 'SomeFramework', 'AnotherFramework'
-  # s.dependency 'JSONKit', '~> 1.4'
+  s.source_files = 'Classes/ios/OWLog.h'
 end
