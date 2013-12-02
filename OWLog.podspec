@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios
   # s.platform     = :ios, '5.0'
-  s.ios.deployment_target = '5.0'
+  s.ios.deployment_target = '4.0'
   s.requires_arc = false
 
   s.source_files = 'Classes/ios/NSLog.h'
