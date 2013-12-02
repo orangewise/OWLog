@@ -1,8 +1,5 @@
 # OWLog
 
-[![Version](http://cocoapod-badges.herokuapp.com/v/OWLog/badge.png)](http://cocoadocs.org/docsets/OWLog)
-[![Platform](http://cocoapod-badges.herokuapp.com/p/OWLog/badge.png)](http://cocoadocs.org/docsets/OWLog)
-
 ## Usage
 
 To run the example project; clone the repo, and run `pod install` from the Project directory first.
@@ -20,7 +17,7 @@ it simply add the following line to your Podfile:
 
 ## Author
 
-Ronald Luitwieler, ronald@orangewise.com
+[Orangewise](https://github.com/orangewise)
 
 ## License
 
