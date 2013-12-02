@@ -1,24 +1,15 @@
-#
-# Be sure to run `pod spec lint NAME.podspec' to ensure this is a
-# valid spec and remove all comments before submitting the spec.
-#
-# To learn more about the attributes see http://docs.cocoapods.org/specification.html
-#
 Pod::Spec.new do |s|
   s.name         = "OWLog"
   s.version      = "0.1.0"
-  s.summary      = "A short description of OWLog."
+  s.summary      = "Orangewise logging."
   s.description  = <<-DESC
-                    An optional longer description of OWLog
-
-                    * Markdown format.
-                    * Don't worry about the indent, we strip it!
+                    Log like we want to.
                    DESC
-  s.homepage     = "http://EXAMPLE/NAME"
+  s.homepage     = "http://github.com/orangewise/OWLog"
   # s.screenshots  = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license      = 'MIT'
   s.author       = { "Ronald Luitwieler (MacBookie Pro)" => "ronald.luitwieler@gmail.com" }
-  s.source       = { :git => "http://github.com/orangewise/OWLog.git", :tag => s.version.to_s }
+  s.source       = { :git => "https://github.com/orangewise/OWLog.git", :tag => s.version.to_s }
 
   s.platform     = :ios
   # s.platform     = :ios, '5.0'
