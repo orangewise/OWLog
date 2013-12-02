@@ -11,14 +11,16 @@ To run the example project; clone the repo, and run `pod install` from the Proje
 
 ## Installation
 
-OWLog is available through [CocoaPods](http://cocoapods.org), to install
+OWLog is available through [github](http://github.com), to install
 it simply add the following line to your Podfile:
 
-    pod "OWLog"
+
+    pod 'OWLog', :git => "https://github.com/orangewise/OWLog.git"
+ 
 
 ## Author
 
-Ronald Luitwieler (MacBookie Pro), ronald.luitwieler@gmail.com
+Ronald Luitwieler, ronald@orangewise.com
 
 ## License
 
