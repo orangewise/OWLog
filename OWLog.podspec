@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "OWLog"
-  s.version      = "0.1.1"
+  s.version      = "0.1.2"
   s.summary      = "Orangewise logging."
   s.description  = <<-DESC
                     Log like we want to.
