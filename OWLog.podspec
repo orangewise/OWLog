@@ -9,8 +9,11 @@ Pod::Spec.new do |s|
   s.license      = 'MIT'
   s.author       = { "Ronald Luitwieler" => "ro@orangewise.com" }
   s.source       = { :git => "https://github.com/orangewise/OWLog.git", :tag => s.version.to_s }
+
+
   s.platform     = :ios
   s.ios.deployment_target = '4.0'
   s.requires_arc = false
-  s.source_files = 'Classes/ios/OWLog.h'
+  s.source_files = 'Classes/ios/*'
+  s.dependency 'TestFlightSDK',    '2.0.2'
 end
