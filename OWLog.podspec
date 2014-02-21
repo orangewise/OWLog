@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "OWLog"
-  s.version      = "0.1.2"
+  s.version      = "0.1.3"
   s.summary      = "Orangewise logging."
   s.description  = <<-DESC
                     Log like we want to.
@@ -15,5 +15,5 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '4.0'
   s.requires_arc = false
   s.source_files = 'Classes/ios/*'
-  s.dependency 'TestFlightSDK',    '2.0.2'
+  s.dependency 'TestFlightSDK',    '~> 2.0.2'
 end
