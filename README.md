@@ -23,3 +23,7 @@ it simply add the following line to your Podfile:
 
 OWLog is available under the MIT license. See the LICENSE file for more info.
 
+
+## Change log
+
+1.0.0 Removed Testflight logging.
