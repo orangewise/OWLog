@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.homepage     = "http://github.com/orangewise/OWLog"
   s.license      = {:type => "private", :text => ""}
   s.author       = { "Ronald Luitwieler" => "ro@orangewise.com" }
-  s.source       = { :git => "https://github.com/orangewise/OWLog.git", :tag => s.version.to_s }
+  s.source       = { :git => "https://github.com/orangewise/OWLog.git", :branch => 'master', :tag => s.version.to_s }
 
 
   s.platform     = :ios
